@@ -1,38 +1,20 @@
-<html lang="pt-BR">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Início | G&B Tech</title>
-	</head>
-	<body>
-		<header>
-			<strong>G&B Tech</strong>
-			<nav>
-				<ul>
-					<li><a href="/">Início</a></li>
-					<li><a href="/sobre">Sobre</a></li>
-					<li><a href="/equipe">Equipe</a></li>
-					<li><a href="/contato">Contato</a></li>
-				</ul>
-			</nav>
-		</header>
+---
+import LayoutBase from '../layouts/LayoutBase.astro';
+import { empresa } from '../data/empresa.js';
+---
 
-		<main>
-			<section>
-				<h1>Do código a solução.</h1>
-				<p>Trata-se de uma empresa movida pela determinação em entregar excelência e impulsionar a inovação tecnológica. Com o compromisso de oferecer resultados de alta qualidade, a empresa é focada em transformar ideias arrojadas em soluções digitais eficientes para o mercado.</p>
-				<a href="/contato">Fale Conosco</a>
-			</section>
+<LayoutBase 
+	titulo="Início" 
+	descricao={`Bem-vindo à ${empresa.nome}. ${empresa.slogan}`}
+>
+	<section>
+		<h1>{empresa.slogan}</h1>
+		<p>{empresa.missao}</p>
+		<a href="/contato">Fale Conosco</a>
+	</section>
 
-			<section>
-				<h2>Quem Atendemos</h2>
-				<p>Pequenas empresas e empreendedores que buscam criar softwares e aplicativos personalizados para alavancar os seus negócios.</p>
-			</section>
-		</main>
-
-		<footer>
-			<p>&copy; 2026 G&B Tech. Todos os direitos reservados.</p>
-		</footer>
-	</body>
-</html>
+	<section>
+		<h2>Quem Atendemos</h2>
+		<p>{empresa.publicoAlvo}</p>
+	</section>
+</LayoutBase>
