@@ -55,6 +55,13 @@ export const empresa = {
       foto: "/images/oliverjames.jpg",
       alt: "Foto de Oliver James",
       descricao: "Responsável por desenvolver interfaces visuais e garantir uma navegação intuitiva e agradável nos sistemas da empresa."
+    },
+    {
+      nome: "Nicole Bellini",
+      cargo: "Engenheira de Software",
+      foto: "/images/nicolebellini.jpg",
+      alt: "Foto de Oliver James",
+      descricao: "Engenheira de software comprometida com a tecnologia e o desenvolvimento de soluções inovadoras. Possui facilidade para trabalhar em equipe, criatividade e dedicação, buscando sempre transformar ideias em projetos eficientes."
     }
   ]
 };
