@@ -47,7 +47,7 @@ export const empresa = {
       cargo: "Desenvolvedor Back-end",
       foto: "/images/erickbryan.jpg",
       alt: "Foto de Erick Bryan",
-      descricao: "Apaixonado por tecnologia e programação, Erick Bryan sempre demonstrou interesse em entender como os sistemas funcionam por trás das telas. Na G&B Tech, atua como Desenvolvedor Back-end, transformando ideias em funcionalidades e buscando constantemente aprimorar seus conhecimentos na área."
+      descricao: "Apaixonado por tecnologia e programação, Erick Bryan sempre demonstrou interesse em entender como os sistemas funcionam por trás das telas."
     },
     {
       nome: "Oliver James",
