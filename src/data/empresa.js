@@ -28,7 +28,7 @@ export const empresa = {
     telefone: "(11) 3512-8800",
     endereco: {
       logradouro: "Av. Brigadeiro Faria Lima, 3477",
-      complemento: "14º andar",
+      complemento: "1º andar",
       bairro: "Itaim Bibi",
       cidadeEstado: "São Paulo, SP",
       cep: "04538-133"
